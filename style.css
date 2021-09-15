@@ -1,0 +1,84 @@
+/* Master Page */
+
+body{
+    padding: 38px;
+    background-color: rgba(98, 153, 93, 0.226);
+    background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Nv Styles */
+.navbar{
+    font-weight: 100;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+
+}
+.left{
+    display: flex;
+
+}
+.navbar > .left > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.right{
+    display: flex;
+}
+.navbar > .right > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.nav-link{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+
+}
+
+.nav-link a{
+    color: rgb(90, 32, 32);
+    text-decoration: dashed;
+    transform: color 0.5;
+}
+
+.nav-link: :hover {
+    border-bottom : 1px solid black;
+}
+.nav-link a:hover {
+    color: black;
+}
+.active-link-nav {
+    border-bottom: 1px solid black;
+}
+.active-link-nav a {
+    color: black !important;
+
+/* content bar */
+
+.contentBar {
+    box-align: center;
+
+}
+.btn-group button{
+    align-items: center;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: rgb(53, 53, 65);
+    border: 1px solid black;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+
+    width: auto;
+}
